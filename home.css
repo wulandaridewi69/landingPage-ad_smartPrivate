@@ -96,6 +96,12 @@ form button:hover {
   background-color: #3730a3;
 }
 
+/* Join */
+.form-select {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 /* company */
 #company p {
   margin-bottom: 0;
