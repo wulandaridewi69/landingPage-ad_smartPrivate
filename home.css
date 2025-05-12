@@ -11,18 +11,21 @@ body {
   color: #333;
 }
 
-.menubar  {
+/* navbar */
+.menubar {
   height: 50px;
-    background-color: #e78b48;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #e78b48;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menubar .col {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 20px;
+  gap: 35px;
 }
 
 .menubar img {
@@ -33,9 +36,9 @@ body {
 .menubar a {
   color: #efeeea;
   background-color: #e78b48;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
 }
 
 .menubar a:hover {
@@ -44,6 +47,7 @@ body {
   padding: 14px;
 }
 
+/* header */
 header {
   background-color: #efeeea;
   color: #102e50;
@@ -51,25 +55,50 @@ header {
   text-align: center;
 }
 
-header p {
-  font-size: 1.2em;
+header .row {
+  gap: 50px;
+  display: flex;
+  align-items: center;
+}
+
+header .col img {
+  width: 75%;
+  height: auto;
+}
+
+header .col h1 {
+  font-weight: 900;
+  text-align: end;
+}
+
+header .col.purpose {
+  display: flow;
+  justify-items: end;
+}
+
+header .col p {
+  font-size: 14px;
   margin-top: 10px;
+  font-weight: lighter;
+  text-align: justify;
+  text-align-last: right;
 }
 
 header .btn {
-  background-color: #e78b48;
-  color: #4f46e5;
-  padding: 12px 24px;
+  background-color: #f5c45e;
+  color: #102E50;
+  padding: 5px 15px;
   margin-top: 20px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
   display: inline-block;
   transition: background 0.3s;
+  font-size: 12px;
 }
 
-.btn:hover {
-  background-color: #e0e7ff;
+header .btn:hover {
+  background-color: #e78b48;
 }
 
 section {
@@ -120,11 +149,13 @@ form button:hover {
   margin-bottom: 0;
   font-size: 12px;
 }
+
 .logo {
   width: 70px;
   height: auto;
   margin-bottom: 10px;
 }
+
 .social {
   width: 20px;
   height: auto;
