@@ -62,7 +62,7 @@ header .row {
 }
 
 header .col img {
-  width: 70%;
+  width: auto;
   height: auto;
   margin-bottom: 20px;
 }
@@ -102,7 +102,30 @@ header .btn:hover {
   background-color: #e78b48;
 }
 
-section {
+/* Benefit */
+#benefit {
+  background-color: #102E50;
+}
+
+#benefit .col p {
+  color: #EFEEEA;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+#benefit .col h6 {
+  font-weight: bolder;
+    color: #EFEEEA;
+}
+
+#benefit .icon {
+  display: flex;
+    align-items: anchor-center;
+    gap: 20px;
+}
+
+#join {
   padding: 40px 20px;
   max-width: 800px;
   margin: 0 auto;
