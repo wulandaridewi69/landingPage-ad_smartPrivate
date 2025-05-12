@@ -62,8 +62,9 @@ header .row {
 }
 
 header .col img {
-  width: 75%;
+  width: 70%;
   height: auto;
+  margin-bottom: 20px;
 }
 
 header .col h1 {
