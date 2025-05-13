@@ -115,7 +115,7 @@ header .btn:hover {
     align-items: anchor-center;
 }
 
-#benefit h3 {
+#benefit h2 {
   text-align: center;
     padding-top: 20px;
     color: #EFEEEA;
@@ -151,7 +151,7 @@ header .btn:hover {
   padding-top: 20px;
 }
 
-#testimonials h3 {
+#testimonials h2 {
     text-align: center;
 }
 
@@ -213,12 +213,23 @@ header .btn:hover {
     align-items: baseline;
 }
 
-
-
+/* Join */
 #join {
-  padding: 40px 20px;
-  max-width: 800px;
+ 
   margin: 0 auto;
+  background-color: #102E50;;
+}
+
+#join h2 {
+  text-align: center;
+    padding-top: 20px;
+    color: #EFEEEA;
+}
+
+#join .form {
+ padding: 40px 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .form-container {
@@ -239,26 +250,32 @@ form textarea {
 }
 
 form button {
-  background-color: #4f46e5;
-  color: white;
-  padding: 10px 20px;
+  background-color: #f5c45e;
+  color: #102E50;
+   padding: 5px 15px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+  font-size: 12px;
+  display: flex;
+    justify-self: anchor-center;
 }
 
 form button:hover {
-  background-color: #3730a3;
+  background-color: #e78b48;
 }
 
-/* Join */
 .form-select {
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
 /* company */
+#company {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 #company p {
   margin-bottom: 0;
   font-size: 12px;
@@ -278,7 +295,7 @@ form button:hover {
 /* footer */
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   font-size: 0.9em;
   background-color: #e0e7ff;
   font-size: 12px;
