@@ -50,9 +50,102 @@ body {
 /* Help Center */
 #help {
     background-color: #102E50;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
+
+#help .row.question {
+      gap: 25px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#help .row.question .col {
+  display: flex;
+    flex-flow: column;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#help h2 {
+  text-align: center;
+    color: #efeeea;
+}
+
+#help .need h5 {
+      text-align: center;
+    color: #efeeea;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#help .need .col {
+  justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+#help .need .help {
+  display: flex;
+  gap: 15px;
+  justify-content: left;
+    align-items: anchor-center;
+}
+
+#help .need .help img {
+  width: 40px;
+    height: auto;
+}
+
+#help .need .help p {
+  color: #efeeea;
+  margin-bottom: 5px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+      color: #F5C45E;
+    border: none;
+    background-color: #102E50;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: flow;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content p:hover {background-color: #ddd;} */
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #BE3D2A;}
+
+
+
+
 
 
 /* company */
