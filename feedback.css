@@ -47,57 +47,59 @@ body {
   padding: 14px;
 }
 
-/* Help Center */
-#help {
+/* Feedback */
+#feedback {
     background-color: #102E50;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-#help .row.question {
-      gap: 25px;
-    justify-content: center;
-    justify-items: center;
+#feedback .row {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-#help .row.question .col {
-  display: flex;
-    flex-flow: column;
-    gap: 20px;
-    justify-content: space-between;
-    text-align: center;
-}
-
-#help h2 {
+#feedback p {
   text-align: center;
-    color: #efeeea;
+    color: #EFEEEA;
 }
 
-#help .need h5 {
-      text-align: center;
-    color: #efeeea;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-#help .need .col {
-  justify-content: center;
-    display: flex;
-    gap: 20px;
-}
-
-#help .need .help {
-  display: flex;
-  gap: 15px;
-  justify-content: left;
-    align-items: anchor-center;
-}
-
-#help .need .help img {
-  width: 40px;
+#feedback .feedback-item img, #feedback .provide-feedback img {
+      width: 45px;
     height: auto;
 }
 
+#feedback .feedback-item h6, #feedback .provide-feedback h6{
+  font-weight: bolder;
+    color: #EFEEEA;
+}
+
+#feedback .feedback-item ul, #feedback .provide-feedback ul,  
+#feedback .feedback-item p, #feedback .provide-feedback p {
+  color: #EFEEEA;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+#feedback .feedback-item, #feedback .provide-feedback {
+  display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#feedback h2 {
+  text-align: center;
+    color: #efeeea;
+        padding-bottom: 20px;
+}
+
+#feedback .provide-feedback {
+  display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: center;
+}
 
 /* company */
 #company {
