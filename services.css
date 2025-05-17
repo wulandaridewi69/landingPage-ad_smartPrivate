@@ -47,54 +47,54 @@ body {
   padding: 14px;
 }
 
-/* Feedback */
-#feedback {
+/* Services */
+#services{
     background-color: #102E50;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-#feedback .row {
+#services .row {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-#feedback p {
+#services p {
   text-align: center;
     color: #EFEEEA;
 }
 
-#feedback .feedback-item img, #feedback .provide-feedback img {
+#services .services-item img, #services .provide-services img {
       width: 45px;
     height: auto;
 }
 
-#feedback .feedback-item h6, #feedback .provide-feedback h6{
+#services .services-item h6, #services .provide-services h6{
   font-weight: bolder;
     color: #EFEEEA;
 }
 
-#feedback .feedback-item ul, #feedback .provide-feedback ul,  
-#feedback .feedback-item p, #feedback .provide-feedback p {
+#services .services-item ul, #services .provide-services ul,  
+#services .services-item p, #services .provide-services p {
   color: #EFEEEA;
     font-size: 12px;
     font-weight: lighter;
     text-align: justify;
 }
 
-#feedback .feedback-item, #feedback .provide-feedback {
+#services .services-item, #services .provide-services {
   display: flex;
     align-items: flex-start;
     gap: 20px;
 }
 
-#feedback h2 {
+#services h2 {
   text-align: center;
     color: #efeeea;
         padding-bottom: 20px;
 }
 
-#feedback .provide-feedback {
+#services .provide-services{
   display: flex;
     align-items: flex-start;
     gap: 20px;
