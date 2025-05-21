@@ -33,19 +33,23 @@
     height: 20px;
   }
   
-  .menubar a {
-    color: #efeeea;
-    background-color: #e78b48;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-  }
-  
-  .menubar a:hover {
-    background-color: #102e50;
-    color: #efeeea;
-    padding: 14px;
-  }
+  .menubar .big-logo {
+  background-color: transparent;
+}
+
+.menubar a {
+  color: #102e50;
+  background-color: #e78b48;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.menubar a:hover {
+  background-color: #efeeea;
+  color: #102e50;
+  padding: 14px;
+}
   
   /* testimonials */
   #testimonials {

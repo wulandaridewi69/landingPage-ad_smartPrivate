@@ -33,8 +33,12 @@ body {
   height: 20px;
 }
 
+.menubar .big-logo {
+  background-color: transparent;
+}
+
 .menubar a {
-  color: #efeeea;
+  color: #102e50;
   background-color: #e78b48;
   text-decoration: none;
   font-weight: bold;
@@ -42,8 +46,8 @@ body {
 }
 
 .menubar a:hover {
-  background-color: #102e50;
-  color: #efeeea;
+  background-color: #efeeea;
+  color: #102e50;
   padding: 14px;
 }
 
