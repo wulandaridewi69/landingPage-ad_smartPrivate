@@ -121,25 +121,34 @@
 
   
   /* company */
-  #company {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  #company p {
-    margin-bottom: 0;
-    font-size: 12px;
-  }
-  
-  .logo {
-    width: 70px;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .social {
-    width: 20px;
-    height: auto;
-  }
+#company {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #102E50;
+}
+
+#company a {
+  margin-bottom: 0;
+  font-size: 12px;
+  text-decoration: none;
+  color: #102E50;
+}
+
+#company .item-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.social {
+  width: 20px;
+  height: auto;
+}
   
   /* footer */
   footer {

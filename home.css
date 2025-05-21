@@ -109,39 +109,39 @@ header .btn:hover {
 
 #benefit .row {
   display: flex;
-    gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    align-items: anchor-center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: anchor-center;
 }
 
 #benefit h2 {
   text-align: center;
-    padding-top: 20px;
-    color: #EFEEEA;
+  padding-top: 20px;
+  color: #EFEEEA;
 }
 
 #benefit .col p {
   color: #EFEEEA;
-    font-size: 12px;
-    font-weight: lighter;
-    text-align: justify;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: justify;
 }
 
 #benefit .col h6 {
   font-weight: bolder;
-    color: #EFEEEA;
+  color: #EFEEEA;
 }
 
 #benefit .icon {
   display: flex;
-    align-items: anchor-center;
-    gap: 20px;
+  align-items: anchor-center;
+  gap: 20px;
 }
 
 #benefit .icon img {
   width: 45px;
-    height: auto;
+  height: auto;
 }
 
 /* testimonials */
@@ -152,7 +152,7 @@ header .btn:hover {
 }
 
 #testimonials h2 {
-    text-align: center;
+  text-align: center;
 }
 
 #testimonials .col {
@@ -160,10 +160,11 @@ header .btn:hover {
   border-radius: 30px;
 }
 
-#testimonials .col .student .name p, #testimonials .row .col p  {
+#testimonials .col .student .name p,
+#testimonials .row .col p {
   font-weight: lighter;
-    font-size: 12px;
-    text-align: justify;
+  font-size: 12px;
+  text-align: justify;
 }
 
 #testimonials .row {
@@ -176,27 +177,28 @@ header .btn:hover {
 
 #testimonials .student img {
   border-radius: 115px;
-    width: 50px;
-    height: auto;
+  width: 50px;
+  height: auto;
 }
 
 #testimonials .student {
   display: flex;
-    gap: 20px;
-    align-items: anchor-center;
+  gap: 20px;
+  align-items: anchor-center;
 }
 
 #testimonials .student .name {
   padding-top: 15px;
 }
 
-#testimonials .student h5, #testimonials .student h6 {
+#testimonials .student h5,
+#testimonials .student h6 {
   margin-bottom: 2px;
 }
 
 #testimonials h5 {
   font-size: 15px;
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 #testimonials h6 {
@@ -206,30 +208,31 @@ header .btn:hover {
 #testimonials .arrow {
   display: flex;
   width: 30px;
-    height: 30px;
-    gap: 12px;
-    justify-content: center;
-    justify-self: center;
-    align-items: baseline;
+  height: 30px;
+  gap: 12px;
+  justify-content: center;
+  justify-self: center;
+  align-items: baseline;
 }
 
 /* Join */
 #join {
- 
+
   margin: 0 auto;
-  background-color: #102E50;;
+  background-color: #102E50;
+  ;
 }
 
 #join h2 {
   text-align: center;
-    padding-top: 20px;
-    color: #EFEEEA;
+  padding-top: 20px;
+  color: #EFEEEA;
 }
 
 #join .form {
- padding: 40px 20px;
-    display: flex;
-    justify-content: center;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .form-container {
@@ -252,14 +255,14 @@ form textarea {
 form button {
   background-color: #f5c45e;
   color: #102E50;
-   padding: 5px 15px;
+  padding: 5px 15px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
   font-size: 12px;
   display: flex;
-    justify-self: anchor-center;
+  justify-self: anchor-center;
 }
 
 form button:hover {
@@ -275,10 +278,19 @@ form button:hover {
 #company {
   padding-top: 25px;
   padding-bottom: 25px;
+  color: #102E50;
 }
-#company p {
+
+#company a {
   margin-bottom: 0;
   font-size: 12px;
+  text-decoration: none;
+  color: #102E50;
+}
+
+#company .item-menu {
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {

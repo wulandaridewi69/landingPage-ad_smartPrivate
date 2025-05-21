@@ -135,28 +135,29 @@ body {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-/* .dropdown-content p:hover {background-color: #ddd;} */
-
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #BE3D2A;}
 
-
-
-
-
-
 /* company */
 #company {
   padding-top: 25px;
   padding-bottom: 25px;
+  color: #102E50;
 }
-#company p {
+
+#company a {
   margin-bottom: 0;
   font-size: 12px;
+  text-decoration: none;
+  color: #102E50;
+}
+
+#company .item-menu {
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {

@@ -109,10 +109,19 @@ body {
 #company {
   padding-top: 25px;
   padding-bottom: 25px;
+  color: #102E50;
 }
-#company p {
+
+#company a {
   margin-bottom: 0;
   font-size: 12px;
+  text-decoration: none;
+  color: #102E50;
+}
+
+#company .item-menu {
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
