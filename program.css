@@ -105,3 +105,46 @@ footer {
   font-size: 12px;
   margin-bottom: 0;
 }
+
+@media only screen and (max-width:460px) {
+  header .col img {
+    max-width: 240px;
+  }
+
+  .menubar img {
+    max-width: 40px;
+    height: auto;
+  }
+
+  .menubar a {
+    font-size: 13px;
+  }
+
+  .menubar .col {
+    gap: 20px;
+}
+
+ img {
+    max-width: 255px;
+  }
+
+  #program h5 {
+    font-size: 15px;
+  }
+
+  #program ul, #program p {
+    font-size: 12px;
+  }
+
+  #program .row {
+    flex-direction: column;
+
+}
+
+  #company .row {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+
+}

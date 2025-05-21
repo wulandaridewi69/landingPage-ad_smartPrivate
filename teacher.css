@@ -148,3 +148,51 @@ footer {
   font-size: 12px;
   margin-bottom: 0;
 }
+
+@media only screen and (max-width:460px) {
+  header .col img {
+    max-width: 240px;
+  }
+
+  .menubar img {
+    max-width: 40px;
+    height: auto;
+  }
+
+  .menubar a {
+    font-size: 13px;
+  }
+
+  .menubar .col {
+    gap: 20px;
+}
+
+#teacher h2 {
+    font-size: 15px;
+}
+
+#teacher .row {
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+#teacher .container p {
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+#teacher .container .notes h6 {
+    font-size: 13px;
+}
+
+#teacher .container .notes ul {
+  font-size: 12px;
+}
+
+  #company .row {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+
+}

@@ -1,39 +1,39 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  /* navbar */
-  .menubar {
-    height: 50px;
-    background-color: #e78b48;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .menubar .col {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    row-gap: 20px;
-    gap: 35px;
-  }
-  
-  .menubar img {
-    width: 50px;
-    height: 20px;
-  }
-  
-  .menubar .big-logo {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* navbar */
+.menubar {
+  height: 50px;
+  background-color: #e78b48;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menubar .col {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 20px;
+  gap: 35px;
+}
+
+.menubar img {
+  width: 50px;
+  height: 20px;
+}
+
+.menubar .big-logo {
   background-color: transparent;
 }
 
@@ -50,81 +50,83 @@
   color: #102e50;
   padding: 14px;
 }
-  
-  /* testimonials */
-  #testimonials {
-    background-color: #102E50;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-  
-  #testimonials h2 {
-      text-align: center;
-      color: #efeeea;
-  }
-  
-  #testimonials .col {
-    background-color: #F5C45E;
-    border-radius: 30px;
-  }
-  
-  #testimonials .col .student .name p, #testimonials .row .col p  {
-    font-weight: lighter;
-      font-size: 12px;
-      text-align: justify;
-      color: #102E50;
-  }
-  
-  #testimonials .row {
-    gap: 25px;
-  }
-  
-  #testimonials .row p {
-    text-align: center;
-    color: #efeeea;
-  }
-  
-  #testimonials .student img {
-    border-radius: 115px;
-      width: 50px;
-      height: auto;
-  }
-  
-  #testimonials .student {
-    display: flex;
-      gap: 20px;
-      align-items: anchor-center;
-  }
-  
-  #testimonials .student .name {
-    padding-top: 15px;
-  }
-  
-  #testimonials .student h5, #testimonials .student h6 {
-    margin-bottom: 2px;
-  }
-  
-  #testimonials h5 {
-    font-size: 15px;
-      font-weight: bolder;
-  }
-  
-  #testimonials h6 {
-    font-size: 12px;
-  }
-  
-  #testimonials .arrow {
-    display: flex;
-    width: 30px;
-      height: 30px;
-      gap: 12px;
-      justify-content: center;
-      justify-self: center;
-      align-items: baseline;      
-  }
 
-  
-  /* company */
+/* testimonials */
+#testimonials {
+  background-color: #102E50;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#testimonials h2 {
+  text-align: center;
+  color: #efeeea;
+}
+
+#testimonials .col {
+  background-color: #F5C45E;
+  border-radius: 30px;
+}
+
+#testimonials .col .student .name p,
+#testimonials .row .col p {
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: justify;
+  color: #102E50;
+}
+
+#testimonials .row {
+  gap: 25px;
+}
+
+#testimonials .row p {
+  text-align: center;
+  color: #efeeea;
+}
+
+#testimonials .student img {
+  border-radius: 115px;
+  width: 50px;
+  height: auto;
+}
+
+#testimonials .student {
+  display: flex;
+  gap: 20px;
+  align-items: anchor-center;
+}
+
+#testimonials .student .name {
+  padding-top: 15px;
+}
+
+#testimonials .student h5,
+#testimonials .student h6 {
+  margin-bottom: 2px;
+}
+
+#testimonials h5 {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#testimonials h6 {
+  font-size: 12px;
+}
+
+#testimonials .arrow {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  gap: 12px;
+  justify-content: center;
+  justify-self: center;
+  align-items: baseline;
+}
+
+
+/* company */
 #company {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -153,13 +155,49 @@
   width: 20px;
   height: auto;
 }
-  
-  /* footer */
-  footer {
-    text-align: center;
-    padding: 10px;
-    font-size: 0.9em;
-    background-color: #e0e7ff;
-    font-size: 12px;
-    margin-bottom: 0;
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  background-color: #e0e7ff;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width:460px) {
+  header .col img {
+    max-width: 240px;
   }
+
+  .menubar img {
+    max-width: 40px;
+    height: auto;
+  }
+
+  .menubar a {
+    font-size: 13px;
+  }
+
+  .menubar .col {
+    gap: 20px;
+  }
+
+  #testimonials .row p {
+    font-size: 13px;
+  }
+
+  #testimonials .row {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  #company .row {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+
+}

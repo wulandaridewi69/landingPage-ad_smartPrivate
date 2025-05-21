@@ -144,3 +144,36 @@ footer {
   font-size: 12px;
   margin-bottom: 0;
 }
+
+@media only screen and (max-width:460px) {
+  header .col img {
+    max-width: 240px;
+  }
+
+  .menubar img {
+    max-width: 40px;
+    height: auto;
+  }
+
+  .menubar a {
+    font-size: 13px;
+  }
+
+  .menubar .col {
+    gap: 20px;
+}
+
+#services p {
+    font-size: 13px;
+}
+
+#services .services-item h6 {
+    font-size: 14px;
+}
+
+  #company .row {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+}
