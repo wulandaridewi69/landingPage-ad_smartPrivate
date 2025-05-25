@@ -2,8 +2,9 @@
 AD Smart Private is a tutoring institution (bimbel) conducted by a teacher along with one or several students. This approach is different from group tutoring, which usually involves many students in one class. 
 ![image](https://github.com/user-attachments/assets/36f47c8d-72ee-4715-83ae-b1e9b0fde216)
 
-##Features
-- Responsive design
+<span style="color: orange;">##Features</ span>
+
+<p>Responsive design</p>
 
 ##Installation
 1. Clone the repository using SSH.
@@ -27,10 +28,10 @@ AD Smart Private is a tutoring institution (bimbel) conducted by a teacher along
 <p>Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to changes.</p>
 
 ##License
-This project is licensed under the MIT license.
+<p>This project is licensed under the MIT License.</p>
 
 ##Contact
-If you'd like to get in touch:
+<p>If you'd like to get in touch:</p>
 
 - Email: yourname@example.com
 - Portfolio: soon
