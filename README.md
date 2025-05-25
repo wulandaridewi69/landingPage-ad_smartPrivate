@@ -1,3 +1,23 @@
 # landingPage-ad_smartPrivate
 AD Smart Private is a tutoring institution (bimbel) conducted by a teacher along with one or several students. This approach is different from group tutoring, which usually involves many students in one class. 
 ![image](https://github.com/user-attachments/assets/36f47c8d-72ee-4715-83ae-b1e9b0fde216)
+
+##Features
+-Responsive design
+
+##Installation
+1. Clone the repository using SSH.
+   'git@github.com:wulandaridewi69/landingPage-ad_smartPrivate.git'
+2. Navigate to the project directory
+   'landingPage-ad_smartPrivate'
+4. Open Home.html in your browser
+
+##Technologies Used
+- HTML5
+- CSS3
+
+##Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to changes.
+
+##License
+This project is licensed under the MIT license.
