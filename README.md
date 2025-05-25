@@ -2,8 +2,7 @@
 AD Smart Private is a tutoring institution (bimbel) conducted by a teacher along with one or several students. This approach is different from group tutoring, which usually involves many students in one class. 
 ![image](https://github.com/user-attachments/assets/36f47c8d-72ee-4715-83ae-b1e9b0fde216)
 
-<span style="color: orange;">##Features</span>
-
+##Features
 <p>Responsive design</p>
 
 ##Installation
@@ -33,6 +32,6 @@ AD Smart Private is a tutoring institution (bimbel) conducted by a teacher along
 ##Contact
 <p>If you'd like to get in touch:</p>
 
-- Email: yourname@example.com
+- Email: dewi.wulandari.ruslan@gmail.com
 - Portfolio: soon
-- GitHub: @[wulandaridewi69]
+- GitHub: @wulandaridewi69
