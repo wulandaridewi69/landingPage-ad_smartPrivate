@@ -3,7 +3,7 @@ AD Smart Private is a tutoring institution (bimbel) conducted by a teacher along
 ![image](https://github.com/user-attachments/assets/36f47c8d-72ee-4715-83ae-b1e9b0fde216)
 
 ##Features
--Responsive design
+- Responsive design
 
 ##Installation
 1. Clone the repository using SSH.
@@ -16,8 +16,15 @@ AD Smart Private is a tutoring institution (bimbel) conducted by a teacher along
 - HTML5
 - CSS3
 
+##Technologies Used
+- Replace content in Home.html, About.html, Feedback.html, Help_center.html, Program.html, Services.html, Teacher.html, and Testimonials.html.
+- You can find the images in the Assets folder.
+- Update styles in home.css, about.css, feedback.css, help_center.css, program.css, services.css, teacher.css, and testimonials.css.
+
+
+
 ##Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to changes.
+'Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to changes.'
 
 ##License
-This project is licensed under the MIT license.
+'This project is licensed under the MIT license.'
