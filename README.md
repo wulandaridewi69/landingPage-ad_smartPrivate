@@ -24,7 +24,14 @@ AD Smart Private is a tutoring institution (bimbel) conducted by a teacher along
 
 
 ##Contributing
-'Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to changes.'
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to changes.
 
 ##License
-'This project is licensed under the MIT license.'
+This project is licensed under the MIT license.
+
+##Contact
+If you'd like to get in touch:
+
+- Email: yourname@example.com
+- Portfolio: soon
+- GitHub: @[wulandaridewi69]
