@@ -52,10 +52,10 @@ body {
 }
 
 /* Services */
-#services{
-    background-color: #102E50;
-    padding-top: 25px;
-    padding-bottom: 25px;
+#services {
+  background-color: #102E50;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #services .row {
@@ -65,44 +65,49 @@ body {
 
 #services p {
   text-align: center;
-    color: #EFEEEA;
-}
-
-#services .services-item img, #services .provide-services img {
-      width: 45px;
-    height: auto;
-}
-
-#services .services-item h6, #services .provide-services h6{
-  font-weight: bolder;
-    color: #EFEEEA;
-}
-
-#services .services-item ul, #services .provide-services ul,  
-#services .services-item p, #services .provide-services p {
   color: #EFEEEA;
-    font-size: 12px;
-    font-weight: lighter;
-    text-align: justify;
 }
 
-#services .services-item, #services .provide-services {
+#services .services-item img,
+#services .provide-services img {
+  width: 45px;
+  height: auto;
+}
+
+#services .services-item h6,
+#services .provide-services h6 {
+  font-weight: bolder;
+  color: #EFEEEA;
+}
+
+#services .services-item ul,
+#services .provide-services ul,
+#services .services-item p,
+#services .provide-services p {
+  color: #EFEEEA;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+#services .services-item,
+#services .provide-services {
   display: flex;
-    align-items: flex-start;
-    gap: 20px;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 #services h2 {
   text-align: center;
-    color: #efeeea;
-        padding-bottom: 20px;
+  color: #efeeea;
+  padding-bottom: 20px;
 }
 
-#services .provide-services{
+#services .provide-services {
   display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: center;
 }
 
 /* company */
@@ -161,15 +166,20 @@ footer {
 
   .menubar .col {
     gap: 20px;
-}
+  }
 
-#services p {
+  #services .services-item img {
+    width: 30px;
+    height: auto;
+  }
+
+  #services p {
     font-size: 13px;
-}
+  }
 
-#services .services-item h6 {
+  #services .services-item h6 {
     font-size: 14px;
-}
+  }
 
   #company .row {
     display: flex;

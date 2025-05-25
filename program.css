@@ -52,17 +52,21 @@ body {
 }
 
 /* Program */
-#program{
-    background-color: #EFEEEA;
-    padding-top: 25px;
-    padding-bottom: 25px;
+#program {
+  background-color: #EFEEEA;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#program img {
+  max-width: -webkit-fill-available;
 }
 
 #program .row {
   padding-top: 20px;
   padding-bottom: 20px;
-    justify-self: center;
-    gap: 20px
+  justify-self: center;
+  gap: 20px
 }
 
 
@@ -122,9 +126,9 @@ footer {
 
   .menubar .col {
     gap: 20px;
-}
+  }
 
- img {
+  img {
     max-width: 255px;
   }
 
@@ -132,14 +136,15 @@ footer {
     font-size: 15px;
   }
 
-  #program ul, #program p {
+  #program ul,
+  #program p {
     font-size: 12px;
   }
 
   #program .row {
     flex-direction: column;
 
-}
+  }
 
   #company .row {
     display: flex;

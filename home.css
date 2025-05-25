@@ -139,7 +139,7 @@ header .btn:hover {
 
 #benefit .icon {
   display: flex;
-  align-items: anchor-center;
+  align-items: flex-start;
   gap: 20px;
 }
 
@@ -354,10 +354,15 @@ footer {
 
   .menubar .col {
     gap: 20px;
-}
+  }
 
   #benefit .row .child img {
     max-width: 212px;
+    height: auto;
+  }
+
+  #benefit .icon img {
+    width: 30px;
     height: auto;
   }
 
